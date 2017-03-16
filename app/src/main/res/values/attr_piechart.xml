@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PieChart">
+        <attr name="holeColor" format="reference|color"/>
+        <attr name="holeRadius" format="integer|dimension|reference"/>
+        <attr name="centerTextSize" format="dimension|integer|reference"/>
+        <attr name="centerTextColor" format="reference|color"/>
+        <attr name="transparentRadius" format="dimension|integer|reference"/>
+
+
+    </declare-styleable>
+</resources>

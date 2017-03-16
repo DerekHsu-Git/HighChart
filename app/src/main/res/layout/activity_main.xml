@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <!--<com.gaogao.highchart.chart.view.line_bar_chart.LineChart-->
+            <!--android:id="@+id/linechart"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="250dp"/>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            >
+            <com.gaogao.highchart.chart.view.linechart.LineChartView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:id="@+id/linechart"
+                />
+
+            <com.gaogao.highchart.chart.view.barchart.BarChartView
+                android:id="@+id/barChart"
+                android:layout_width="170dp"
+                android:layout_height="170dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            >
+            <com.gaogao.highchart.chart.view.pie.PieChart
+                android:id="@+id/piechart"
+                android:layout_width="180dp"
+                android:layout_height="180dp"/>
+
+            <com.gaogao.highchart.chart.view.circle.CircleView
+                android:id="@+id/circleview"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

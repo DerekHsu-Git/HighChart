@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyCircleView">
+        <!--背景环颜色-->
+        <attr name="backgroundLineColor" format="reference|color"/>
+        <!--进度环颜色-->
+        <attr name="foregroundLineColor" format="reference|color"/>
+        <!--标题文字大小-->
+        <attr name="circleViewtitleTextSize" format="reference|dimension|integer"/>
+        <!--内容文字大小-->
+        <attr name="circleViewcurrentTextSize" format="reference|dimension|integer"/>
+        <!--目标文字大小-->
+        <attr name="circleViewtargetTextSize" format="reference|dimension|integer"/>
+        <!--标题文字颜色-->
+        <attr name="circleViewtitleTextColor" format="reference|color"/>
+        <!--内容文字颜色-->
+        <attr name="circleViewcurrentTextColor" format="reference|color"/>
+        <!--目标文字颜色-->
+        <attr name="circleViewtargetTextColor" format="reference|color"/>
+    </declare-styleable>
+</resources>
